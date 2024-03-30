@@ -49,7 +49,7 @@ address = {
         'native': 'ETH',
         'WETH': '0x4200000000000000000000000000000000000006',
         'lzChainId': 111,
-        'ghost_contract': '0xD7bA4057f43a7C4d4A34634b2A3151a60BF78f0d',
+        'ghost_contract': '0xDAb290F956DA2486F188f6F98a34c8bB319bff0C',
 
     },
     'bsc': {
@@ -368,6 +368,17 @@ address = {
         'native': 'MNT',        
         'lzChainId': 181,
         'ghost_contract': '0x03e9044D7E8da61815EbeD0a5B265Fbc9CBDfA4f',
+
+    },
+
+    'blast': {
+        'type': 0,        
+        'rpc': 'https://rpc.blastblockchain.com',
+        "scan": "https://blastscan.io/tx",
+        'ETH': 'native',
+        'native': 'ETH',        
+        'lzChainId': 243,
+        'ghost_contract': '0xc0F14A9a8d3Bc913E660c473c1932FFBDda71b45',
 
     },
 

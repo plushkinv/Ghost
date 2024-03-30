@@ -16,11 +16,11 @@ skolko_trans = [1,1] # указывайте диапазон сколько де
 predel_trans = 100 # количество транзакций в Л0. кошельки пропускаются если уже достигли этого значения по транзакциям
 
 #networks_from: 
-# networks_from = ["arbitrum" , "polygon", "bsc", "zora", "scroll", "base", "linea", "mantle"]
-networks_from = ["arbitrum" , "polygon", "bsc", "zora", "scroll", "base", "linea", "mantle"]
+# networks_from = ["arbitrum" , "polygon", "bsc", "zora", "scroll", "base", "linea", "mantle", "optimism", "blast"]
+networks_from = ["arbitrum" , "polygon", "bsc", "zora", "scroll", "base", "linea", "mantle", "optimism", "blast"]
 
-# networks_to = ["arbitrum" , "polygon", "bsc", "zora", "scroll", "base", "linea", "mantle"]
-networks_to = ["arbitrum" , "polygon", "bsc", "zora", "scroll", "base", "linea", "mantle"]
+# networks_to = ["arbitrum" , "polygon", "bsc", "zora", "scroll", "base", "linea", "mantle", "optimism", "blast"]
+networks_to = ["arbitrum" , "polygon", "bsc", "zora", "scroll", "base", "linea", "mantle", "optimism", "blast"]
 
 
 #укажите паузу в работе между кошельками, минимальную и максимальную. 

@@ -98,11 +98,11 @@ class Ghost:
 
     def get_tx_bridge(self, network_to):
         
-        minDstGas = self.dapp_contract.functions.minDstGasLookup(fun.address[network_to]['lzChainId'], 1).call()
-        adapterParams = encode_packed(
-            ["uint16", "uint256"],
-            [1, minDstGas] # lzVersion, gasLimit - extra for minting
-        )        
+        # minDstGas = self.dapp_contract.functions.minDstGasLookup(fun.address[network_to]['lzChainId'], 1).call()
+        # adapterParams = encode_packed(
+        #     ["uint16", "uint256"],
+        #     [1, minDstGas] # lzVersion, gasLimit - extra for minting
+        # )        
         
         adapterParams = "0x00010000000000000000000000000000000000000000000000000000000000030d40"
 
