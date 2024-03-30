@@ -373,7 +373,7 @@ address = {
 
     'blast': {
         'type': 0,        
-        'rpc': 'https://rpc.blastblockchain.com',
+        'rpc': 'https://blast.blockpi.network/v1/rpc/public',
         "scan": "https://blastscan.io/tx",
         'ETH': 'native',
         'native': 'ETH',        
