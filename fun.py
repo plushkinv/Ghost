@@ -252,13 +252,6 @@ address = {
         'ghost_contract': '',
 
     },
-    'nova': {
-        'type': 0,        
-        'rpc': '',
-        'lzChainId': 175,
-        'ghost_contract': '',
-
-    },
     'meter': {
         'type': 0,        
         'rpc': '',
@@ -382,6 +375,29 @@ address = {
 
     },
 
+    'nova': {
+        'type': 2,        
+        'rpc': config.rpc_links['nova'],
+        "scan": "https://nova.arbiscan.io/tx",
+        'ETH': 'native',
+        'native': 'ETH',        
+        'lzChainId': 42170,
+        'ghost_contract': '0x03e9044d7e8da61815ebed0a5b265fbc9cbdfa4f',
+        'TOKENS' : {
+        }
+    },
+
+    'mode': {
+        'type': 0,        
+        'rpc': config.rpc_links['mode'],
+        "scan": "https://modescan.io/tx",
+        'ETH': 'native',
+        'native': 'ETH',        
+        'lzChainId': 34443,
+        'ghost_contract': '0x03e9044D7E8da61815EbeD0a5B265Fbc9CBDfA4f',
+        'TOKENS' : {
+        }
+    },
 
 }
 
